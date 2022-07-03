@@ -1,0 +1,30 @@
+{
+    "application-name": "ac_app",
+
+    "start-time": "2022-05-03 08:26:00",
+    "end-time": "2022-05-03 08:27:30",
+    "function_details":{
+        "attendance_system":{
+            "sensor_type": "camera",
+            "sensor_location": "vindhya-block",
+            "no_of_instances": 2,
+            "model_name": "attendance_prediction_model",
+            "controllers": [
+                {
+                    "controller_type": "fan",
+                    "controller_location": "vindhya-block"
+                },
+                {
+                    "controller_type": "light",
+                    "controller_location": "vindhya-block"
+                }
+            ]
+        },
+        "attention_system":{
+            "sensor_type": "camera",
+            "sensor_location": "vindhya-block",
+            "no_of_instances": 2,
+            "model_name": "attention_prediction_model"
+        }
+    }
+}
